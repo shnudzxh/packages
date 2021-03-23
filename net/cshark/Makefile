@@ -29,7 +29,7 @@ define Package/cshark
   CATEGORY:=Network
   TITLE:=CloudShark capture tool
   URL:=https://cloudshark.io/
-  DEPENDS:=+libjson-c +libpcap +libuci +libubox +libuclient +libustream-mbedtls
+  DEPENDS:=+libjson-c +libpcap +libuci +libubox +libuclient +libustream-openssl
 endef
 
 CMAKE_OPTIONS = \
